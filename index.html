@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era Clean - Limpeza Pós Obra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            margin: 0; padding: 0; 
+            color: #f0f0f0; 
+            background-color: #0d0d0d; 
+        }
+        header { 
+            background: linear-gradient(90deg, #b87333, #d4af37); 
+            color: white; 
+            padding: 40px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        nav { 
+            background: #1a1a1a; 
+            padding: 12px; 
+            text-align: center; 
+        }
+        nav a { 
+            color: #d4af37; 
+            margin: 0 18px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            font-size: 1.1em;
+        }
+        nav a:hover { color: #ffffff; }
+        .hero { 
+            background: url('https://images.unsplash.com/photo-1595433562696-f8b18d5aa63d') no-repeat center center/cover; 
+            height: 400px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: white; 
+            font-size: 2.5em; 
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+        section { 
+            padding: 50px 20px; 
+            max-width: 1000px; 
+            margin: auto; 
+        }
+        .services, .contact { 
+            background: #1a1a1a; 
+            border-radius: 10px; 
+            margin-top: 30px; 
+            padding: 40px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        footer { 
+            background: #111; 
+            color: #888; 
+            text-align: center; 
+            padding: 25px; 
+            margin-top: 50px; 
+            font-size: 0.9em;
+        }
+        .whatsapp-button { 
+            display: inline-block; 
+            background: #128C7E; 
+            color: white; 
+            padding: 15px 30px; 
+            border-radius: 30px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            margin-top: 25px; 
+            transition: background 0.3s ease; 
+        }
+        .whatsapp-button:hover { background: #d4af37; color: #0d0d0d; }
+        input, textarea { 
+            width: 100%; 
+            padding: 12px; 
+            margin-top: 15px; 
+            border: 1px solid #555; 
+            background: #0d0d0d; 
+            color: #f0f0f0; 
+            border-radius: 5px; 
+        }
+        button { 
+            background-color: #b87333; 
+            color: white; 
+            padding: 12px 25px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin-top: 15px; 
+            font-weight: 600;
+        }
+        button:hover { background-color: #d4af37; color: #0d0d0d; }
+        ul { 
+            list-style: inside disc; 
+            padding-left: 0; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Era Clean</h1>
+    <p>Especialistas em Limpeza Pós Obra - São Paulo e Capital</p>
+</header>
+
+<nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="hero">
+    Limpeza Pós Obra Profissional
+</div>
+
+<section id="servicos">
+    <h2>O que fazemos?</h2>
+    <div class="services">
+        <p>Na Era Clean, oferecemos serviços especializados em limpeza pós-obra para residências, comércios e indústrias. Garantimos a remoção completa de entulhos, poeira e manchas, deixando seu espaço pronto para uso imediato.</p>
+        <ul>
+            <li>Limpeza de pisos e rejuntes</li>
+            <li>Remoção de respingos de tinta</li>
+            <li>Higienização de vidros e esquadrias</li>
+            <li>Lavagem de áreas externas</li>
+            <li>Tratamento de superfícies especiais</li>
+        </ul>
+        <a class="whatsapp-button" href="https://wa.me/5511915473380" target="_blank">Solicitar Orçamento via WhatsApp</a>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="contact">
+        <p>Telefone/WhatsApp: (11) 91547-3380</p>
+        <p>Email: limpezapos.obra02@gmail.com</p>
+        <p>Atendimento em São Paulo e região metropolitana.</p>
+        <h3>Peça um Orçamento:</h3>
+        <form action="mailto:limpezapos.obra02@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Nome" placeholder="Seu Nome" required>
+            <input type="tel" name="Telefone" placeholder="Seu Telefone" required>
+            <textarea name="Mensagem" placeholder="Descreva seu serviço" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>Era Clean &copy; 2025 - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
